@@ -3,8 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Image from 'next/image';
-import { ChevronDown, ChevronRight, Download, Share2, Menu, X, Search, Home, Copy, Check, Code, PlayCircle, PauseCircle } from 'lucide-react';
+import { ChevronDown, Download, Share2, Menu, X, Search, Home, Copy, Check, PlayCircle, PauseCircle } from 'lucide-react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { UrlObject } from 'url';
@@ -67,7 +66,7 @@ const ExpandableSection = ({ title, children }: { title: string; children: React
   );
 };
 
-const InteractiveDemo = ({ title, videoSrc, poster, demoContent }: {title: string; videoSrc: string; poster: string; demoContent: (isPlaying: boolean) => React.ReactNode}) => {
+const InteractiveDemo = ({ title, videoSrc, poster }: {title: string; videoSrc: string; poster: string; }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -141,7 +140,7 @@ const InteractiveDemo = ({ title, videoSrc, poster, demoContent }: {title: strin
   );
 };
 
-const SectionContent = ({ section, subsection }: { section: any; subsection: any }) => {
+const SectionContent = ({ subsection }: { subsection: any }) => {
   return (
     <section id={subsection.id} className="mb-12 scroll-mt-20">
       <motion.div
@@ -173,7 +172,6 @@ const SectionContent = ({ section, subsection }: { section: any; subsection: any
               videoSrc={'/Altrix-Demo.mp4'}
               title={subsection.demo.title}
               poster=""
-              demoContent={subsection.demo.content}
             />
           )}
 
@@ -488,7 +486,7 @@ const result = await altrixClient.processNotes({
                 </div>
               ) : searchQuery ? (
                 <div className="p-4 text-center text-gray-500 dark:text-gray-400">
-                  No results found for "{searchQuery}"
+                  No results found for &quot;{searchQuery}&quot;
                 </div>
               ) : null}
             </div>
@@ -618,7 +616,6 @@ const result = await altrixClient.processNotes({
               {section.subsections.map((subsection) => (
                 <SectionContent
                   key={subsection.id}
-                  section={section}
                   subsection={subsection}
                 />
               ))}

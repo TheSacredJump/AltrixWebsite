@@ -2,13 +2,12 @@
 
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes'; // Make sure to install next-themes if you haven't
 import Link from 'next/link';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isImageVisible, setIsImageVisible] = useState(false);
-  const { theme } = useTheme();
+
 
   useEffect(() => {
     setTimeout(() => setIsVisible(true), 100);

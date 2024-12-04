@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Card, CardContent } from "@/components/ui/card";
-import { ZoomIn, ZoomOut, X } from "lucide-react";
+import { ZoomIn } from "lucide-react";
 
 export default function TimelineDemo() {
   const [visibleSections, setVisibleSections] = useState<Set<number>>(new Set());
@@ -17,7 +17,11 @@ export default function TimelineDemo() {
       entries.forEach((entry) => {
         const targetId = Number(entry.target.getAttribute('data-index'));
         if (entry.isIntersecting) {
-          setVisibleSections(prev => new Set([...prev, targetId]));
+          setVisibleSections(prev => {
+            const newSet = new Set(prev);
+            newSet.add(targetId);
+            return newSet;
+          });
         }
       });
     };

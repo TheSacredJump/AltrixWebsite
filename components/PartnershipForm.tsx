@@ -43,7 +43,7 @@ const PartnershipForm = () => {
               </svg>
             </div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">Thank You!</h3>
-            <p className="text-gray-600 dark:text-gray-400">We've received your partnership request and will be in touch shortly.</p>
+            <p className="text-gray-600 dark:text-gray-400">We&apos;ve received your partnership request and will be in touch shortly.</p>
           </div>
         </div>
       </div>
