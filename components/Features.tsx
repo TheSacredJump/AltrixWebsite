@@ -447,7 +447,7 @@ export default function TimelineDemo() {
   ];
 
   return (
-    <div className="w-full" ref={timelineRef}>
+    <div id="features" className="w-full" ref={timelineRef}>
       <Timeline data={data} />
     </div>
   );

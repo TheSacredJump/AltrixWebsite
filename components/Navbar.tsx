@@ -78,8 +78,8 @@ const Navbar = () => {
             </Link>
             <div className="hidden md:flex md:space-x-8 ml-10">
               <NavLink href="/#features">Features</NavLink>
-              <NavLink href="/metrics">Metrics</NavLink>
-              <NavLink href="/about">About</NavLink>
+              <NavLink href="/#metrics">Metrics</NavLink>
+              <NavLink href="/#about">About</NavLink>
               <NavLink href="/whitepaper">Whitepaper</NavLink>
             </div>
           </div>
@@ -115,8 +115,8 @@ const Navbar = () => {
         <div className="md:hidden shadow-md">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white dark:bg-neutral-950">
             <MobileNavLink href="/#features">Features</MobileNavLink>
-            <MobileNavLink href="/metrics">Metrics</MobileNavLink>
-            <MobileNavLink href="/about">About</MobileNavLink>
+            <MobileNavLink href="/#metrics">Metrics</MobileNavLink>
+            <MobileNavLink href="/#about">About</MobileNavLink>
             <MobileNavLink href="/whitepaper">Whitepaper</MobileNavLink>
             <Link href="/waitlist" className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#6677db] hover:bg-violet-700">
               Upgrade Your EHR

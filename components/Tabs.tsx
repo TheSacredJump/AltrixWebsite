@@ -152,7 +152,7 @@ export default function TabsDemo() {
       title: "Burnout",
       value: "burnout",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#6677db] to-violet-500 dark:from-neutral-900 dark:to-neutral-950">
+        <div id="metrics" className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#6677db] to-violet-500 dark:from-neutral-900 dark:to-neutral-950">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
