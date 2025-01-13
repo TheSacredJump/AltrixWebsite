@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Altrix - Ambience AI for Underserved EHRs",
-  description: "Altrix is high-quality medical software for underserved EHRs that takes advantege of robust AI.",
+  title: "Altrix - Your Nurses Station, on Autopilot",
+  description: "Altrix integrates with your existing EHR to save nurses 3 hours a day on administrative work. The platform allows nurses to automaticlly chart interactions with patients and pull patient information in real-time through natural language.",
 };
 
 export default function RootLayout({
