@@ -61,7 +61,7 @@ export default function TimelineDemo() {
 
   const data = [
     {
-      title: "Auto Charting",
+      title: "AutoChart",
       content: (
         <div 
           data-index="0"
