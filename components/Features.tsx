@@ -128,27 +128,27 @@ export default function TimelineDemo() {
                 {/* Left column: Description */}
                 <div className="space-y-6 text-neutral-800 dark:text-neutral-200">
                   <p className="text-base font-medium border-l-4 border-[#6677db] pl-4">
-                    Automates the charting process using ambient AI to listen to conversations, 
-                    extract relevant details, and pushing it directly into the EHRs.
+                  Capture nurse-patient interactions, automatically generating flowsheets.
+                  By being directly integrated in your EHR, it helps nurses focus on patient care.
                   </p>
                   
                   <div className="space-y-6 mt-8">
                     <Feature
-                      title="Speaks many languages"
-                      description="Altrix recognizes over 20 languages and accents, enhancing accessibility for diverse patient populations."
-                      isHovered={hoveredFeature === "Speaks many languages"}
+                      title="Instant Transparency"
+                      description="Allows nurses to effectively review and confirm generated notes before submission."
+                      isHovered={hoveredFeature === "Instant Transparency"}
                     />
 
                     <Feature
-                      title="Validation"
-                      description="A quick validation screen lets nurses review and edit entries before they're sent to the EHR."
-                      isHovered={hoveredFeature === "Validation"}
+                      title="Customizable to Your Unit"
+                      description="We understand every unit, nurse, and flowsheet is different — Altrix has you covered."
+                      isHovered={hoveredFeature === "Customizable to Your Unit"}
                     />
 
                     <Feature
-                      title="Tailored for your hospital"
-                      description="With customizable EHR fields, Altrix adapts seamlessly to the unique requirements of different hospitals and units nationwide."
-                      isHovered={hoveredFeature === "Tailored for your hospital"}
+                      title="State-of-the-art AI"
+                      description="Our propietary agent achieves unparalelled accuracy and speeds with uncompromised scale. "
+                      isHovered={hoveredFeature === "State-of-the-art AI"}
                     />
                   </div>
                 </div>
@@ -159,7 +159,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "Auto Review",
+      title: "AutoAssistant",
       content: (
         <div 
           data-index="0"
@@ -226,27 +226,27 @@ export default function TimelineDemo() {
                 {/* Left column: Description */}
                 <div className="space-y-6 text-neutral-800 dark:text-neutral-200">
                   <p className="text-base font-medium border-l-4 border-[#6677db] pl-4">
-                    Enables nurses to gain a comprehensive understanding of a patient&apos;s medical history by seamlessly accessing and analyzing detailed past records.
+                  Empower nurses with instant access to patient information and streamline routine tasks through natural language commands. 
 
                   </p>
                   
                   <div className="space-y-6 mt-8">
                     <Feature
-                      title="Increase Quality"
-                      description="Empowers nurses to make more informed decisions, tailor care plans to individual patient needs, and enhance the overall quality of care."
-                      isHovered={hoveredFeature === "Increase Quality"}
+                      title="Surface Information"
+                      description="Instantly surface patient information, from medication history to vital sign trendlines."
+                      isHovered={hoveredFeature === "Surface Information"}
                     />
 
                     <Feature
-                      title="Strong Search Engine"
-                      description="Leverages data from previous interactions to support a diverse range of advanced and highly specific search queries."
-                      isHovered={hoveredFeature === "Strong Search Engine"}
+                      title="Queue Orders"
+                      description="Queue lab orders, technician orders, all through a natural language interface."
+                      isHovered={hoveredFeature === "Queue Orders"}
                     />
 
                     <Feature
-                      title="Instant Responses"
-                      description="Delivers rapid, real-time responses that seamlessly align with existing workflows, ensuring minimal disruption and maximum efficiency."
-                      isHovered={hoveredFeature === "Instant Responses"}
+                      title="Voice Mode"
+                      description="Hands full? In a coding situation? Go hands-free."
+                      isHovered={hoveredFeature === "Voice Mode"}
                     />
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "Auto Handoffs",
+      title: "AutoVisibility",
       content: (
         <div 
           data-index="0"
@@ -324,26 +324,27 @@ export default function TimelineDemo() {
                 {/* Left column: Description */}
                 <div className="space-y-6 text-neutral-800 dark:text-neutral-200">
                   <p className="text-base font-medium border-l-4 border-[#6677db] pl-4">
-                  Captures and organizes key patient data in real-time through summarizing important updates, flags critical changes, and provides an easy-to-read handoff document for the incoming nurse.
+                  Provide management with real-time insights into patient demand and resource allocation. 
+                  Optimize staffing decisions and workload distribution across the floor.
                   </p>
                   
                   <div className="space-y-6 mt-8">
                     <Feature
-                      title="Secure Transfers"
-                      description="Safely retrieves prior shift notes without exposing any PHI."
-                      isHovered={hoveredFeature === "Secure Transfers"}
+                      title="Real-Time Patient Acuity"
+                      description="Track patient care, pinpointing high-stress areas within the hospital."
+                      isHovered={hoveredFeature === "Real-Time Patient Acuity"}
                     />
 
                     <Feature
-                      title="Minimizes Errors"
-                      description="Enhances handoff process by replacing traditional paper report sheets with AI-powered agents."
-                      isHovered={hoveredFeature === "Minimizes Errors"}
+                      title="Optimal Nurse Deployment"
+                      description="Recommends optimal RN deployment to balance workloads and improve care efficiency."
+                      isHovered={hoveredFeature === "Optimal Nurse Deployment"}
                     />
 
                     <Feature
-                      title="Returns Time"
-                      description="Nurses often stay past their shifts due to patient handoffs. Altrix helps nurses leave on time."
-                      isHovered={hoveredFeature === "Returns Time"}
+                      title="Unlock Predictive Analytics"
+                      description="Leverage historical data to enable proactive resource planning."
+                      isHovered={hoveredFeature === "Unlock Predictive Analytics"}
                     />
                   </div>
                 </div>
@@ -354,7 +355,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "Command Copilot",
+      title: "AutoBilling",
       content: (
         <div 
           data-index="0"
@@ -421,20 +422,27 @@ export default function TimelineDemo() {
                 {/* Left column: Description */}
                 <div className="space-y-6 text-neutral-800 dark:text-neutral-200">
                   <p className="text-base font-medium border-l-4 border-[#6677db] pl-4">
-                  Enables nurses to swiftly communicate essential needs across the hospital, ensuring they can secure the necessary equipment to provide uninterrupted patient care.
+                  Automatically convert the day's documentation into CPT & ICD billing codes. 
+                  By reducing manual input and errors, ensures higher and faster claim approvals.
                   </p>
                   
                   <div className="space-y-6 mt-8">
                     <Feature
-                      title="Quick Messaging"
-                      description="No need to leave the room for request —nurses can stay with the patient and continue their care."
-                      isHovered={hoveredFeature === "Quick Messaging"}
+                      title="ICD, CPC, & HCPCS Compatible"
+                      description="Global compatibility to handle a nurse's entire day."
+                      isHovered={hoveredFeature === "ICD, CPC, & HCPCS Compatible"}
                     />
 
                     <Feature
-                      title="Centralize Communications"
-                      description="Allows communication across units from a single device, reducing confusion."
-                      isHovered={hoveredFeature === "Centralize Communications"}
+                      title="Reduce Claim Denials"
+                      description="Minimizes errors, reducing claim denials through automated coding accuracy."
+                      isHovered={hoveredFeature === "Reduce Claim Denials"}
+                    />
+
+                    <Feature
+                      title="Faster Revenue Cycles"
+                      description="Processes information in real time, enabling faster revenue cycles."
+                      isHovered={hoveredFeature === "Faster Revenue Cycles"}
                     />
                   </div>
                 </div>
