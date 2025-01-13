@@ -39,10 +39,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       <div className="max-w-7xl mx-auto pt-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-6xl mb-4 font-medium text-black dark:text-white max-w-4xl mx-auto text-center">
           Empower Nurses with a Complete Suite of
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#6677db] to-violet-500 "> Augmentation Modules. </span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#6677db] to-violet-500 "> Synergistic Modules. </span>
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mx-auto text-center">
-        Here&apos;s a quick overview of our solutions.
+        Here&apos;s how our platform supercharges your unit.
         </p>
       </div>
 
