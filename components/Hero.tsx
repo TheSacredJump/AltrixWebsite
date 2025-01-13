@@ -52,16 +52,16 @@ const Hero = () => {
         }`}>
           {/* Main Heading */}
           <h1 className="text-4xl md:text-7xl font-bold">
-            Your Nursing Station
+            Your Nurses Station
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6677db] to-violet-500">
-              On Auto-Pilot
+              On Autopilot
             </span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Save nurses 3 hours a day on administrative tasks
+            Save nurses 3 hours a day on administrative work
           </p>
 
           {/* CTA Buttons */}
@@ -73,9 +73,9 @@ const Hero = () => {
             </Link>
             <Link href={"/whitepaper"}>
             <button className="border border-gray-200 dark:border-white/20 bg-gray-50/50 dark:bg-white/5 backdrop-blur-sm text-gray-900 dark:text-white px-6 py-3 rounded-full font-medium hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex items-center gap-2">
-              Watch Overview
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polygon points="5 3 19 12 5 21 5 3" />
+              Read Whitepaper
+              <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 0 0" fill="none" stroke="currentColor" strokeWidth="0" strokeLinecap="round" strokeLinejoin="round">
+                
               </svg>
             </button>
             </Link>
