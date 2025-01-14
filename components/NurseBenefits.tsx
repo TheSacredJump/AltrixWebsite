@@ -11,27 +11,27 @@ export default function FocusCardsDemo() {
 
   const cards = [
     {
-      title: "Free-up Time for Nurses",
+      title: "Free Up Time",
       src: "/walking.mp4",
     },
     {
-      title: "Decreases burnout",
+      title: "Decrease Cognitive Overload",
       src: "/burnout.mp4",
     },
     {
-      title: "Better legal protection",
+      title: "Robust Legal Protection",
       src: "/legal.mp4",
     },
     {
-      title: "Low Costs",
+      title: "Lower Turnover Costs",
       src: "/cost.mp4",
     },
     {
-      title: "Increased Patient Care Quality",
+      title: "Higher Patient Care Quality",
       src: "/care.mp4",
     },
     {
-      title: "Automatic Coding",
+      title: "Accelerate Revenue Cycles",
       src: "/coding.mp4",
     },
   ];
@@ -62,6 +62,7 @@ export default function FocusCardsDemo() {
 
   return (
     <>
+    <div id="nursebenefits" className="w-full"></div>
       <h2 
         ref={titleRef}
         className={`text-3xl md:text-6xl font-semibold text-center mb-20 mt-20 transform transition-all duration-1000 ease-out ${
@@ -70,7 +71,7 @@ export default function FocusCardsDemo() {
             : 'translate-y-10 opacity-0'
         }`}
       >
-        How Altrix benefits our{" "}
+        How Altrix Benefits our{" "}
         <span 
           className={`text-transparent bg-clip-text bg-gradient-to-r from-[#6677db] to-violet-500 transform transition-all duration-1000 delay-300 ${
             isTitleVisible 
