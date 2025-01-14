@@ -18,7 +18,7 @@ const MarqueeTrustedBy = () => {
     <section className="py-20 overflow-hidden dark:bg-black">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-20">
-          In Collaboration with Leading <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6677db] to-violet-500">Organizations</span>
+          Built in Collaboration with <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6677db] to-violet-500"> Leading Organizations</span>
         </h2>
         <div className="relative">
           <div className="flex animate-marquee">
