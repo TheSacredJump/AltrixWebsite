@@ -61,8 +61,8 @@ const Waitlist = () => {
     <main className='w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-50 to-teal-100 dark:from-neutral-950 dark:from-30% dark:via-teal-900 dark:via-55% dark:to-neutral-950 dark:to-75% p-4'>
       <div className='max-w-2xl w-full bg-white dark:bg-[#212121] rounded-lg shadow-xl overflow-hidden'>
         <div className='p-8'>
-          <h2 className='text-3xl font-bold text-center mb-2 text-gray-800 dark:text-white'>Join Our Waitlist</h2>
-          <p className='text-center text-gray-600 dark:text-gray-300 mb-6'>Be among the first to experience AI-powered nursing scribes for your EHR!</p>
+          <h2 className='text-3xl font-bold text-center mb-2 text-gray-800 dark:text-white'>Request a Demo</h2>
+          <p className='text-center text-gray-600 dark:text-gray-300 mb-6'>Be the first to experience the most powerful intelligent nursing platform!</p>
           <form onSubmit={handleSubmit} className='space-y-4'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
@@ -148,7 +148,7 @@ const Waitlist = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor='ehrSystem' className='block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1'>Current EHR System</label>
+                <label htmlFor='ehrSystem' className='block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1'>Primary EHR System</label>
                 <input
                   type='text'
                   id='ehrSystem'
@@ -204,14 +204,14 @@ const Waitlist = () => {
                 className='h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded'
               />
               <label htmlFor='subscribe' className='ml-2 block text-sm text-gray-700 dark:text-gray-300'>
-                Keep me updated on Altrix developments and early access opportunities
+                Opt me out of our monthly Altrix newsletter, delivering the latest on nursing AI
               </label>
             </div>
             <button
               type='submit'
               className='w-full flex justify-center items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#6677db] hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500 transition duration-150 ease-in-out'
             >
-              Join Waitlist
+              Request Demo
               <Send className='ml-2 h-4 w-4' />
             </button>
           </form>
