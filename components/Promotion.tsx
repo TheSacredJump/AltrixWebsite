@@ -80,11 +80,9 @@ const WhitePaperHero = () => {
           variants={itemVariants}
           className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl leading-relaxed"
         >
-          As a nurse-led innovation with deep roots in clinical practice and technology,
-          Altrix is dedicated to transforming healthcare efficiency through trustworthy AI solutions. 
-          By leveraging insights—gathered from real-world nursing workflows and thousands of 
-          patient interactions—we are committed to reducing nurse burnout, improving workflow efficiency, 
-          and empowering nurses with intuitive AI-driven documentation tools.
+          Altrix is committed to redefining nursing workflows through rigorous research and innovation. 
+          We draw inspiration for solutions from our observational clinical studies, contributions to technical research, and healthcare design white papers. 
+          This approach positions Altrix as a leader in advancing AI that supports the role of nurses in healthcare.
         </motion.p>
 
         <motion.div 
