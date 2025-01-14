@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/waitlist" className={`inline-flex items-center px-4 py-2 border border-[#6677db] text-sm font-medium rounded-md text-[#6677db] ${isOnDarkSection ? 'bg-black' : 'bg-white dark:bg-neutral-950'} hover:bg-[#6677db] dark:hover:bg-[#6677db] hover:text-white hover:scale-105 transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500`}>
-              Upgrade Your EHR
+            components/Metrics.tsx
             </Link>
             <button
               onClick={toggleDarkMode}
@@ -119,7 +119,7 @@ const Navbar = () => {
             <MobileNavLink href="/#about">About</MobileNavLink>
             <MobileNavLink href="/whitepaper">Research</MobileNavLink>
             <Link href="/waitlist" className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#6677db] hover:bg-violet-700">
-              Upgrade Your EHR
+              Supercharge Your Nurses
             </Link>
           </div>
         </div>
