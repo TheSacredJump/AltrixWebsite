@@ -76,7 +76,7 @@ const PartnershipForm = () => {
             </span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Join us in revolutionizing nursing workflows and improving patient care
+            Join us in redefining nursing workflows and improving patient care
           </p>
         </div>
 
@@ -142,7 +142,7 @@ const PartnershipForm = () => {
 
           <div>
             <label htmlFor="bedsCount" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-              Number of ICU Beds
+              Number of Beds
             </label>
             <select
               name="bedsCount"
