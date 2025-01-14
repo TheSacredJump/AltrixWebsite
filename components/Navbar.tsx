@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/waitlist" className={`inline-flex items-center px-4 py-2 border border-[#6677db] text-sm font-medium rounded-md text-[#6677db] ${isOnDarkSection ? 'bg-black' : 'bg-white dark:bg-neutral-950'} hover:bg-[#6677db] dark:hover:bg-[#6677db] hover:text-white hover:scale-105 transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500`}>
-            components/Metrics.tsx
+            Supercharge Your Nurses
             </Link>
             <button
               onClick={toggleDarkMode}
