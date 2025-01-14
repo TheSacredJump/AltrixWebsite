@@ -17,7 +17,7 @@ const MainPage: React.FC = () => {
         <Hero />
         <Features />
         <NurseBenefits />
-        <Tabs />
+
         <Promotion />
         <Metrics />
         <PartnershipForm />
