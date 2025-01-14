@@ -78,7 +78,7 @@ const Navbar = () => {
             </Link>
             <div className="hidden md:flex md:space-x-8 ml-10">
               <NavLink href="/#features">Platform</NavLink>
-              <NavLink href="/#metrics">Impact</NavLink>
+              <NavLink href="/#nursebenefits">Impact</NavLink>
               <NavLink href="/#about">About</NavLink>
               <NavLink href="/whitepaper">Research</NavLink>
             </div>
@@ -115,7 +115,7 @@ const Navbar = () => {
         <div className="md:hidden shadow-md">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white dark:bg-neutral-950">
             <MobileNavLink href="/#features">Platform</MobileNavLink>
-            <MobileNavLink href="/#metrics">Impact</MobileNavLink>
+            <MobileNavLink href="/#nursebenefits">Impact</MobileNavLink>
             <MobileNavLink href="/#about">About</MobileNavLink>
             <MobileNavLink href="/whitepaper">Research</MobileNavLink>
             <Link href="/waitlist" className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#6677db] hover:bg-violet-700">
