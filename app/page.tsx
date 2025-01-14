@@ -20,8 +20,8 @@ const MainPage: React.FC = () => {
 
         <Promotion />
         <Metrics />
-        <PartnershipForm />
         <MarqueeTrustedBy />
+        <PartnershipForm />
         <Footer />
     </div>
   );
