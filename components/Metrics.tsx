@@ -11,39 +11,39 @@ import Link from "next/link";
 export default function FeaturesSectionDemo() {
     const features = [
       {
-        title: "Proprietary Model",
+        title: "Integrated Into Your EHR",
         description:
-          "Our extractive NLP AI model, SIFT, is designed to capture and process nurse-to-patient interactions with a high degree of specificity.",
+          "Our middleware drives deep integration with major EHRs like Epic, Cerner, & Athena, as well as homegrown systems of record.",
         skeleton: <SkeletonOne />,
         className:
           "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
       },
       {
-        title: "Instant transparency",
+        title: "Trusted, Verifiable in Real-Time",
         description:
-          "Altrix provides nurses with complete visibility into how documentation is generated, allowing them to trace each data point directly back to its original location within the transcript.",
+          "With visibility into the source of AI generation, nurses can seamlessly trace data point to its original location.",
         skeleton: <SkeletonTwo />,
         className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
       },
       {
-        title: "Integration with EHRs",
+        title: "Onsite Support and Implementation Suite",
         description:
-          "Altrix seamlessly integrates with both commercial and custom-built Electronic Health Records (EHR) systems through our advanced middleware technology.",
+          "Go live in 2 - 4 weeks. Through the support of our engineers, we're on call 24/7 for both nurse managers and IT teams.",
         skeleton: <SkeletonThree />,
         className:
           "col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800",
       },
       {
-        title: "Unparalleled Safety - Local Model Allowing for Data Autonomy",
+        title: "HIPAA & Encryption at its Core",
         description:
-          "Our AI models run locally on your infrastructure, ensuring that sensitive data is never transferred to external servers.",
+          "Altrix is fully HIPAA compliant with advanced encryption for data. Built on a secure U.S.-based cloud infrastructure, our platform safeguards patient privacy",
         skeleton: <SkeletonFour />,
         className: "col-span-1 lg:col-span-3 border-b lg:border-none",
       },
     ];
   
     return (
-      <div id="about" className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto dark:bg-black">
+      <div id="about" className="relative z-20 py-10 lg:py-20 max-w-7xl mx-auto dark:bg-black">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ export default function FeaturesSectionDemo() {
           </h4>
   
           <p className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
-            A Robust, AI-Powered Solution for Nurse-to-Patient Interactions
+            Scalable, Secure, and Deeply Integrated
           </p>
         </motion.div>
   
