@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Twitter, Linkedin, Github } from 'lucide-react';
+import {Linkedin} from 'lucide-react';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -16,17 +16,11 @@ const Footer = () => {
               <Image src="/altrix_logo.png" alt="Logo" width={100} height={100} />
             </Link>
             <p className="text-sm mb-4">
-              Empowering healthcare professionals with AI-driven solutions for better patient care.
+              Your Nurses Station, on Autopilot
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 transition-colors">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 transition-colors">
-                <Github size={20} />
               </a>
             </div>
           </div>
@@ -38,23 +32,23 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/features" className="hover:text-[#6677db] transition-colors">
-                  Features
+                <Link href="/#features" className="hover:text-[#6677db] transition-colors">
+                  AutoChart
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="hover:text-[#6677db] transition-colors">
-                  Pricing
+                <Link href="/#features" className="hover:text-[#6677db] transition-colors">
+                  AutoAssistant
                 </Link>
               </li>
               <li>
-                <Link href="/integrations" className="hover:text-[#6677db] transition-colors">
-                  Integrations
+                <Link href="/#features" className="hover:text-[#6677db] transition-colors">
+                  AutoVisibility
                 </Link>
               </li>
               <li>
-                <Link href="/updates" className="hover:text-[#6677db] transition-colors">
-                  Updates
+                <Link href="/#features" className="hover:text-[#6677db] transition-colors">
+                  AutoBilling
                 </Link>
               </li>
             </ul>
@@ -67,32 +61,32 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/about" className="hover:text-[#6677db] transition-colors">
+                <Link href="/#about" className="hover:text-[#6677db] transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-[#6677db] transition-colors">
-                  Blog
+                <Link href="/whitepaper" className="hover:text-[#6677db] transition-colors">
+                  Research
                 </Link>
               </li>
               <li>
-                <Link href="/careers" className="hover:text-[#6677db] transition-colors">
-                  Careers
+                <Link href="/#nursebenefits" className="hover:text-[#6677db] transition-colors">
+                  Impact
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-[#6677db] transition-colors">
+                <Link href="/waitlist" className="hover:text-[#6677db] transition-colors">
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Policies */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
-              Legal
+              Policies
             </h3>
             <ul className="space-y-3">
               <li>
@@ -102,17 +96,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/terms" className="hover:text-[#6677db] transition-colors">
-                  Terms of Service
-                </Link>
-              </li>
-              <li>
-                <Link href="/security" className="hover:text-[#6677db] transition-colors">
-                  Security
-                </Link>
-              </li>
-              <li>
-                <Link href="/compliance" className="hover:text-[#6677db] transition-colors">
-                  Compliance
+                  Terms
                 </Link>
               </li>
             </ul>
@@ -128,7 +112,7 @@ const Footer = () => {
             <div className="mt-4 md:mt-0">
               <Link href={'/waitlist'}>
               <button className="inline-flex items-center px-4 py-2 border border-[#6677db] text-sm font-medium rounded-md text-[#6677db] bg-white dark:bg-neutral-950 hover:bg-[#6677db] hover:text-white transition-colors duration-300">
-                Join Waitlist
+                Supercharge Your Nurses
               </button>
               </Link>
             </div>
