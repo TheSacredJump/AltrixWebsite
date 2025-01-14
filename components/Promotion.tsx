@@ -36,7 +36,7 @@ const WhitePaperHero = () => {
   };
 
   const gradientVariants = {
-    hidden: { opacity: 0, scale: 0.8 },
+    hidden: { opacity: 20, scale: 0.8 },
     visible: {
       opacity: 0.5,
       scale: 1,
@@ -49,7 +49,7 @@ const WhitePaperHero = () => {
   };
 
   return (
-    <div ref={ref} className="relative w-full min-h-[60vh] bg-white dark:bg-black text-neutral-950 dark:text-white px-6 py-20 overflow-hidden">
+    <div ref={ref} className="relative w-full min-h-[60vh] bg-white dark:bg-black text-neutral-950 dark:text-white px-6 py-40 overflow-hidden">
       
       {/* Content */}
       <motion.div
