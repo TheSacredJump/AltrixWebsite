@@ -254,26 +254,6 @@ const WhitePaper = () => {
           id: 'introduction', 
           title: 'Introduction to Altrix',
           content: 'As a nurse-led innovation with deep roots in clinical practice...',
-          demo: {
-            title: 'Platform Overview',
-            content: (isPlaying: any) => (
-              <div className="space-y-4">
-                <div className="aspect-video bg-gray-200 dark:bg-gray-800 rounded-lg flex items-center justify-center">
-                  {isPlaying ? (
-                    <video 
-                      className="w-full h-full rounded-lg"
-                      autoPlay 
-                      loop 
-                      muted
-                      src="/demo.mp4"
-                    />
-                  ) : (
-                    <PlayCircle size={48} className="text-gray-400" />
-                  )}
-                </div>
-              </div>
-            )
-          }
         },
       ]
     },
