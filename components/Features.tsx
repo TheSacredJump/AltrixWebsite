@@ -159,7 +159,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "AutoAssistant",
+      title: "EHR Assistant",
       content: (
         <div 
           data-index="0"
@@ -257,7 +257,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "AutoVisibility",
+      title: "Floor Visibility",
       content: (
         <div 
           data-index="0"
