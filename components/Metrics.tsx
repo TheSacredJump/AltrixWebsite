@@ -36,7 +36,7 @@ export default function FeaturesSectionDemo() {
       {
         title: "HIPAA & Encryption at its Core",
         description:
-          "Altrix is fully HIPAA compliant with advanced encryption for data. Built on a secure U.S.-based cloud infrastructure, our platform safeguards patient privacy",
+          "Altrix is fully HIPAA compliant with advanced encryption for data. Built on a secure U.S.-based cloud infrastructure, our platform safeguards patient privacy.",
         skeleton: <SkeletonFour />,
         className: "col-span-1 lg:col-span-3 border-b lg:border-none",
       },
