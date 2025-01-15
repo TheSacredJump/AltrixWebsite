@@ -355,7 +355,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "AutoBilling",
+      title: "AutoCoding",
       content: (
         <div 
           data-index="0"
@@ -422,7 +422,7 @@ export default function TimelineDemo() {
                 {/* Left column: Description */}
                 <div className="space-y-6 text-neutral-800 dark:text-neutral-200">
                   <p className="text-base font-medium border-l-4 border-[#6677db] pl-4">
-                  Automatically convert the day's documentation into CPT & ICD billing codes. 
+                  Automatically convert the day's documentation into CPT & ICD codes. 
                   By reducing manual input and errors, ensures higher and faster claim approvals.
                   </p>
                   
