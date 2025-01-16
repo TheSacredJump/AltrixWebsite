@@ -4,12 +4,13 @@ import Image from 'next/image';
 const MarqueeTrustedBy = () => {
   const companies = [
     { name: 'Epic', logo: '/epic.png' },
-    { name: 'Medstack', logo: '/medstack.png' },
     { name: 'Microsoft', logo: '/microsoft.png' },
-    { name: 'University of Michigan', logo: '/umich_logo.png' },
-    { name: 'Ann Arbor Spark', logo: '/annarbor_spark.png' },
+    { name: 'Meta', logo: '/meta-logo.png' },
+    { name: 'Mich Med', logo: '/mich-med-logo.png' },
+    { name: 'Synergy', logo: '/synergy-health-logo.png' },
+    { name: 'IMC', logo: '/imc-logo.png' },
     { name: 'Rice University', logo: '/rice_logo.png' },
-    { name: 'Synergy', logo: '/synergy.png' },
+    { name: 'Medstack', logo: '/medstack.png' },
     { name: 'MC3 Cardiopulmonary', logo: '/mc3.png' },
     // Add more companies as needed
   ];
