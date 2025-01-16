@@ -282,14 +282,14 @@ export default function TimelineDemo() {
                       <div className="relative group cursor-pointer bg-[#6677db]/10 px-1 rounded-lg">
                         <div className="aspect-[4/3] relative w-full rounded-lg overflow-hidden">
                           <Image
-                            src="/interaction_light.png"
+                            src="/vercel_2.png"
                             alt="Current Interaction Light Mode"
                             fill
                             className="rounded-lg object-contain dark:hidden 
                               transition-transform duration-300 group-hover:scale-105"
                           />
                           <Image
-                            src="/interaction_dark.png"
+                            src="/vercel_4.png"
                             alt="Current Interaction Dark Mode"
                             fill
                             className="rounded-lg object-contain hidden dark:block 
@@ -306,13 +306,13 @@ export default function TimelineDemo() {
                     <DialogContent className="max-w-4xl dark:bg-neutral-900">
                       <div className="relative aspect-[4/3] w-full">
                         <Image
-                          src="/interaction_light.png"
+                          src="/vercel_2.png"
                           alt="Current Interaction Light Mode"
                           fill
                           className="object-contain dark:hidden"
                         />
                         <Image
-                          src="/interaction_dark.png"
+                          src="/vercel_4.png"
                           alt="Current Interaction Dark Mode"
                           fill
                           className="object-contain hidden dark:block"
@@ -380,7 +380,7 @@ export default function TimelineDemo() {
                       <div className="relative group cursor-pointer">
                         <div className="aspect-[4/3] relative w-full rounded-lg overflow-hidden">
                           <Image
-                            src="/editform_light.png"
+                            src="/coder-image.png"
                             alt="Edit Form Light Mode"
                             fill
                             className="rounded-lg object-contain dark:hidden 
