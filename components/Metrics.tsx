@@ -135,14 +135,14 @@ export const SkeletonOne = () => {
         <div className="w-full p-5 mx-auto bg-white dark:bg-neutral-900 shadow-2xl group h-[400px]">
           <div className="relative w-full h-full">
             <Image
-              src="/aiscribes_light.png"
-              alt="header light"
+              src="/ehr-integration.png"
+              alt="ehr integration"
               fill
               className="object-cover object-left-top rounded-sm dark:hidden"
             />
             <Image
-              src="/aiscribes_dark.png"
-              alt="header dark"
+              src="/ehr-integration-dark.png"
+              alt="ehr integration"
               fill
               className="object-cover object-left-top rounded-sm hidden dark:block"
             />
@@ -242,13 +242,13 @@ export const SkeletonOne = () => {
   
             <div className="relative w-full h-full bg-white dark:bg-neutral-900 rounded-lg shadow-2xl overflow-hidden">
               <Image
-                src="/search_light.png"
+                src="/image-asset.jpg"
                 alt="header light"
                 fill
                 className="object-cover rounded-lg blur-none group-hover/image:blur-md transition-all duration-200 dark:hidden"
               />
               <Image
-                src="/search_dark.png"
+                src="/image-asset.jpg"
                 alt="header dark"
                 fill
                 className="object-cover rounded-lg blur-none group-hover/image:blur-md transition-all duration-200 hidden dark:block"
