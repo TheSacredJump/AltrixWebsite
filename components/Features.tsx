@@ -404,7 +404,7 @@ export default function TimelineDemo() {
                     <DialogContent className="max-w-4xl dark:bg-neutral-900">
                       <div className="relative aspect-[4/3] w-full">
                         <Image
-                          src="/editform_light.png"
+                          src="/coder-image.png"
                           alt="Edit Form Light Mode"
                           fill
                           className="object-contain dark:hidden"
