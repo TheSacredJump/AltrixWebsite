@@ -11,11 +11,11 @@ export default function FocusCardsDemo() {
 
   const cards = [
     {
-      title: "Free Up Time",
+      title: "More Bedside Time",
       src: "/walking.mp4",
     },
     {
-      title: "Decrease Cognitive Overload",
+      title: "Decreased Cognitive Overload",
       src: "/burnout.mp4",
     },
     {
@@ -23,7 +23,7 @@ export default function FocusCardsDemo() {
       src: "/legal.mp4",
     },
     {
-      title: "Lower Turnover Costs",
+      title: "Lower Burnout Costs",
       src: "/cost.mp4",
     },
     {
@@ -31,7 +31,7 @@ export default function FocusCardsDemo() {
       src: "/care.mp4",
     },
     {
-      title: "Accelerate Revenue Cycles",
+      title: "Accelerated Revenue Cycles",
       src: "/coding.mp4",
     },
   ];
