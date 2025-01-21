@@ -16,11 +16,11 @@ const MainPage: React.FC = () => {
         <Navbar />
         <Hero />
         <Features />
-        <NurseBenefits />
 
+
+        <MarqueeTrustedBy />
         <Promotion />
         <Metrics />
-        <MarqueeTrustedBy />
         <PartnershipForm />
         <Footer />
     </div>
