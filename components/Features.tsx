@@ -86,14 +86,14 @@ export default function TimelineDemo() {
                       <div className="relative group cursor-pointer bg-[#6677db]/10 py-1 rounded-lg">
                         <div className="aspect-[4/3] relative w-full rounded-lg overflow-hidden">
                           <Image
-                            src="/aiscribes_light.png"
+                            src="/queue_light.png"
                             alt="AI Scribes Light Mode"
                             fill
                             className="rounded-lg object-contain dark:hidden 
                               transition-transform duration-300 group-hover:scale-105"
                           />
                           <Image
-                            src="/aiscribes_dark.png"
+                            src="/queue_dark.png"
                             alt="AI Scribes Dark Mode"
                             fill
                             className="rounded-lg object-contain hidden dark:block 
@@ -110,7 +110,7 @@ export default function TimelineDemo() {
                     <DialogContent className="max-w-4xl dark:bg-neutral-900">
                       <div className="relative aspect-[4/3] w-full">
                         <Image
-                          src="/aiscribes_light.png"
+                          src="/queue_light.png"
                           alt="AI Scribes Light Mode"
                           fill
                           className="object-contain dark:hidden"
@@ -184,7 +184,7 @@ export default function TimelineDemo() {
                       <div className="relative group cursor-pointer bg-[#6677db]/10 p-1 rounded-lg">
                         <div className="aspect-[4/3] relative w-full rounded-lg overflow-hidden">
                           <Image
-                            src="/search_light.png"
+                            src="/ehr-assistant.png"
                             alt="EHR Search Light Mode"
                             fill
                             className="rounded-lg object-contain dark:hidden 
@@ -208,7 +208,7 @@ export default function TimelineDemo() {
                     <DialogContent className="max-w-4xl dark:bg-neutral-900">
                       <div className="relative aspect-[4/3] w-full">
                         <Image
-                          src="/search_light.png"
+                          src="/ehr-assistant.png"
                           alt="EHR SearchLight Mode"
                           fill
                           className="object-contain dark:hidden"
@@ -355,7 +355,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "AutoCoding",
+      title: "AutoCode",
       content: (
         <div 
           data-index="0"
@@ -380,7 +380,7 @@ export default function TimelineDemo() {
                       <div className="relative group cursor-pointer">
                         <div className="aspect-[4/3] relative w-full rounded-lg overflow-hidden">
                           <Image
-                            src="/coder-image.png"
+                            src="/autocode-image.png"
                             alt="Edit Form Light Mode"
                             fill
                             className="rounded-lg object-contain dark:hidden 
@@ -404,7 +404,7 @@ export default function TimelineDemo() {
                     <DialogContent className="max-w-4xl dark:bg-neutral-900">
                       <div className="relative aspect-[4/3] w-full">
                         <Image
-                          src="/coder-image.png"
+                          src="/autocode-image.png"
                           alt="Edit Form Light Mode"
                           fill
                           className="object-contain dark:hidden"
@@ -422,8 +422,7 @@ export default function TimelineDemo() {
                 {/* Left column: Description */}
                 <div className="space-y-6 text-neutral-800 dark:text-neutral-200">
                   <p className="text-base font-medium border-l-4 border-[#6677db] pl-4">
-                  Automatically convert the day's documentation into CPT & ICD codes. 
-                  By reducing manual input and errors, ensures higher and faster claim approvals.
+                  Coming Soon —— automatically convert the day's documentation into CPT & ICD codes.
                   </p>
                   
                   <div className="space-y-6 mt-8">
