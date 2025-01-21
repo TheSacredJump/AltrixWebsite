@@ -16,7 +16,7 @@ const Footer = () => {
               <Image src="/altrix_logo.png" alt="Logo" width={100} height={100} />
             </Link>
             <p className="text-sm mb-4">
-              Your Nurses Station, on Autopilot
+              Your Nurse Units, with Superpowers
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 transition-colors">
@@ -66,17 +66,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/whitepaper" className="hover:text-[#6677db] transition-colors">
+                <Link href="https://independent.academia.edu/HectorBenitezVentura" className="hover:text-[#6677db] transition-colors">
                   Research
                 </Link>
               </li>
               <li>
-                <Link href="/#nursebenefits" className="hover:text-[#6677db] transition-colors">
-                  Impact
+                <Link href="/#enterprise" className="hover:text-[#6677db] transition-colors">
+                  Enterprise
                 </Link>
               </li>
               <li>
-                <Link href="/waitlist" className="hover:text-[#6677db] transition-colors">
+                <Link href="https://50vimbgxorf.typeform.com/to/G0TLy3hm" className="hover:text-[#6677db] transition-colors">
                   Contact
                 </Link>
               </li>
@@ -110,9 +110,9 @@ const Footer = () => {
               © {new Date().getFullYear()} Altrix. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
-              <Link href={'/waitlist'}>
+              <Link href={"https://50vimbgxorf.typeform.com/to/G0TLy3hm"}>
               <button className="inline-flex items-center px-4 py-2 border border-[#6677db] text-sm font-medium rounded-md text-[#6677db] bg-white dark:bg-neutral-950 hover:bg-[#6677db] hover:text-white transition-colors duration-300">
-                Supercharge Your Nurses
+                Request a Demo
               </button>
               </Link>
             </div>
