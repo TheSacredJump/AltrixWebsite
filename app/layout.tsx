@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Altrix - Your Nurses Station, on Autopilot",
+  title: "Altrix - Your Nurse Units, with Superpowers",
   description: "Altrix integrates with your existing EHR to save nurses 3 hours a day on administrative work. The platform allows nurses to automaticlly chart interactions with patients and pull patient information in real-time through natural language.",
 };
 
