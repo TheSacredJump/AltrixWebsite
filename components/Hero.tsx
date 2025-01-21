@@ -52,10 +52,10 @@ const Hero = () => {
         }`}>
           {/* Main Heading */}
           <h1 className="text-4xl md:text-7xl font-bold">
-            Your Nurses Station
+            Your Nurse Units,
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6677db] to-violet-500">
-              On Autopilot
+              with Superpowers
             </span>
           </h1>
 
@@ -66,7 +66,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex gap-4 justify-center">
-            <Link href={"/waitlist"}>
+            <Link href={"https://50vimbgxorf.typeform.com/to/G0TLy3hm"}>
             <button className="bg-gray-900 dark:bg-white text-white dark:text-black px-6 py-3 rounded-full font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors">
               Request Demo
             </button>
