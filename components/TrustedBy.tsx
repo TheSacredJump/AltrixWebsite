@@ -5,7 +5,7 @@ const MarqueeTrustedBy = () => {
   const companies = [
     { name: 'Epic', logo: '/epic.png' },
     { name: 'Microsoft', logo: '/microsoft.png' },
-    { name: 'Meta', logo: '/meta-logo.png' },
+    { name: 'Meta', logo: '/meta-logo2.png' },
     { name: 'Mich Med', logo: '/mich-med-logo.png' },
     { name: 'Synergy', logo: '/synergy-health-logo.png' },
     { name: 'IMC', logo: '/imc-logo.png' },
@@ -16,8 +16,8 @@ const MarqueeTrustedBy = () => {
   ];
 
   return (
-    <section className="py-20 overflow-hidden dark:bg-black">
-      <div className="container mx-auto px-4">
+    <section className="py-20 overflow-hidden dark:bg-black" id="about">
+      <div  className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-20">
           Co-Developed with Leading <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6677db] to-violet-500"> RNs, CNOs, CNIOs, & Engineers</span>
         </h2>
