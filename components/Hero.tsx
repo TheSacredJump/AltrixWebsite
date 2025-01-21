@@ -73,7 +73,7 @@ const Hero = () => {
             </Link>
             <Link href={"/whitepaper"}>
             <button className="border border-gray-200 dark:border-white/20 bg-gray-50/50 dark:bg-white/5 backdrop-blur-sm text-gray-900 dark:text-white px-6 py-3 rounded-full font-medium hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex items-center gap-2">
-              Read Whitepaper
+              Read Reseacrh
               <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 0 0" fill="none" stroke="currentColor" strokeWidth="0" strokeLinecap="round" strokeLinejoin="round">
                 
               </svg>
@@ -89,7 +89,7 @@ const Hero = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-[#6677db] to-violet-500 opacity-20 blur-2xl" />
               <div className="dark:hidden relative w-full h-full bg-gray-100 dark:bg-gray-900 rounded-lg overflow-hidden border border-gray-200/50 dark:border-white/10">
                 <Image
-                  src="/queue_light.png"
+                  src="/altrix-hero.png"
                   alt="Altrix Platform Interface - Light Mode"
                   fill
                   priority
