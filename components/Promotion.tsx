@@ -89,14 +89,14 @@ const WhitePaperHero = () => {
           variants={itemVariants}
           className="flex flex-wrap gap-4"
         >
-          <Link href={'/whitepaper'}>
+          <Link href={"https://independent.academia.edu/HectorBenitezVentura"}>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black font-semibold rounded transition-all duration-300 
                        hover:shadow-lg hover:dark:shadow-white/20 hover:shadow-black/20"
             >
-              READ WHITEPAPER
+              READ RESEARCH
             </motion.button>
           </Link>
           
@@ -107,7 +107,7 @@ const WhitePaperHero = () => {
               className="px-8 py-3 border-2 border-black dark:border-white text-black dark:text-white font-semibold rounded 
                        transition-all duration-300 hover:shadow-lg hover:dark:shadow-white/20 hover:shadow-black/20"
             >
-              JOIN WAITLIST
+              REQUEST DEMO
             </motion.button>
           </Link>
         </motion.div>
