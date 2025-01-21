@@ -42,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#6677db] to-violet-500 "> Synergistic Modules. </span>
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mx-auto text-center">
-        Here&apos;s how our platform supercharges your unit.
+        Here&apos;s how our platform gives your unit superpowers.
         </p>
       </div>
 
