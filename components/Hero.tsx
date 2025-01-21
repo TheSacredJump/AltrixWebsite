@@ -71,7 +71,7 @@ const Hero = () => {
               Request Demo
             </button>
             </Link>
-            <Link href={"/whitepaper"}>
+            <Link href={"https://independent.academia.edu/HectorBenitezVentura"}>
             <button className="border border-gray-200 dark:border-white/20 bg-gray-50/50 dark:bg-white/5 backdrop-blur-sm text-gray-900 dark:text-white px-6 py-3 rounded-full font-medium hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex items-center gap-2">
               Read Reseacrh
               <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 0 0" fill="none" stroke="currentColor" strokeWidth="0" strokeLinecap="round" strokeLinejoin="round">
