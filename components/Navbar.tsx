@@ -84,8 +84,8 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="/waitlist" className={`inline-flex items-center px-4 py-2 border border-[#6677db] text-sm font-medium rounded-md text-[#6677db] ${isOnDarkSection ? 'bg-black' : 'bg-white dark:bg-neutral-950'} hover:bg-[#6677db] dark:hover:bg-[#6677db] hover:text-white hover:scale-105 transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500`}>
-            Supercharge Your Nurses
+            <Link href="https://50vimbgxorf.typeform.com/to/G0TLy3hm" className={`inline-flex items-center px-4 py-2 border border-[#6677db] text-sm font-medium rounded-md text-[#6677db] ${isOnDarkSection ? 'bg-black' : 'bg-white dark:bg-neutral-950'} hover:bg-[#6677db] dark:hover:bg-[#6677db] hover:text-white hover:scale-105 transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500`}>
+            Request a Demo
             </Link>
             
           </div>
@@ -107,8 +107,8 @@ const Navbar = () => {
             <MobileNavLink href="/#about">About</MobileNavLink>
             <MobileNavLink href="/#enterprise">Enterprise</MobileNavLink>
             <MobileNavLink href="https://independent.academia.edu/HectorBenitezVentura">Research</MobileNavLink>
-            <Link href="/waitlist" className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#6677db] hover:bg-violet-700">
-              Supercharge Your Nurses
+            <Link href="https://50vimbgxorf.typeform.com/to/G0TLy3hm" className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-[#6677db] hover:bg-violet-700">
+              Request a Demo
             </Link>
           </div>
         </div>
