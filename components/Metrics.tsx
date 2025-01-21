@@ -43,7 +43,7 @@ export default function FeaturesSectionDemo() {
     ];
   
     return (
-      <div id="about" className="relative z-20 py-10 lg:py-20 max-w-7xl mx-auto dark:bg-black">
+      <div id="enterprise" className="relative z-20 py-10 lg:py-20 max-w-7xl mx-auto dark:bg-black">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
