@@ -100,7 +100,7 @@ const WhitePaperHero = () => {
             </motion.button>
           </Link>
           
-          <Link href={'/waitlist'}>
+          <Link href={"https://50vimbgxorf.typeform.com/to/G0TLy3hm"}>
             <motion.button
               whileHover={{ scale: 1.05, backgroundColor: 'rgba(255, 255, 255, 0.1)' }}
               whileTap={{ scale: 0.95 }}
